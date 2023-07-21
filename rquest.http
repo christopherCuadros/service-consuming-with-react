@@ -1,0 +1,12 @@
+@server = http://localhost:8080/
+
+###
+
+GET {{server}}api/employees
+
+####
+
+POST {{server}}api/employees
+Content-Type: application/json
+
+{"firstName":"esteban","lastName":"cuadros matta","description":"tengo 22 años estoy viejo"}
